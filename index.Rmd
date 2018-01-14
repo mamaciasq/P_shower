@@ -4,6 +4,7 @@ author: Alberto Rodríguez R
 ---
 
 ```{r setup, include=FALSE}
+library(rmdshower)
 swjpg <- system.file('examples', 'sw.jpg', package = 'rmdshower')
 scifi <- system.file('examples', 'scifi.jpg', package = 'rmdshower')
 ```

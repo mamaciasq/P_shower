@@ -1,0 +1,4 @@
+rmdshower::shower_presentation:
+  self_contained: false
+  katex: true
+  ratio: 16x10

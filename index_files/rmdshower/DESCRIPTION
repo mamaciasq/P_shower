@@ -16,7 +16,7 @@ Authors@R: c(
        comment = "shower, https://github.com/shower/shower"),
     person("Denis", "Hananein", role = c("aut", "cph"),
        comment = "shower, https://github.com/shower/shower"),
-    person("Gábor", "Csárdi", role = c("aut"),
+    person("GÃ¡bor", "CsÃ¡rdi", role = c("aut"),
        email = "gcsardi@mango-solutions.com"),
     person("Doug", "Ashton", role = c("aut", "cre"),
        email = "dashton@mango-solutions.com"),
@@ -42,13 +42,13 @@ Author: Vadim Makeev [aut, cph] (shower, https://github.com/shower/shower),
   Artem Polikarpov [aut, cph] (shower, https://github.com/shower/shower),
   Tony Ganch [aut, cph] (shower, https://github.com/shower/shower),
   Denis Hananein [aut, cph] (shower, https://github.com/shower/shower),
-  Gábor Csárdi [aut],
+  GÃ¡bor CsÃ¡rdi [aut],
   Doug Ashton [aut, cre],
   JJ Allaire [aut],
   RStudio [cph],
   Mango Solutions [cph]
 Maintainer: Doug Ashton <dashton@mango-solutions.com>
-Built: R 3.4.3; ; 2018-01-14 14:17:10 UTC; windows
+Built: R 3.4.3; ; 2018-02-01 18:27:31 UTC; unix
 RemoteType: github
 RemoteHost: https://api.github.com
 RemoteRepo: rmdshower

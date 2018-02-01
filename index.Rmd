@@ -11,7 +11,7 @@ scifi <- system.file('examples', 'scifi.jpg', package = 'rmdshower')
 
 ## Organizaciones en Github { .white }
 
-<img src="`r scifi`" class="cover">
+<img src="scifi.jpg" class="cover">
 
 <p class="white">
 Traducido del texto original de GitHub: https://github.com/blog/674-introducing-organizations.

@@ -1,6 +1,6 @@
 ---
-title: "Presentación en Rmarkdown con Shower"
-author: Alberto Rodríguez R
+title: "Organizaciones en Github"
+author: "Martín Macías"
 ---
 
 ```{r setup, include=FALSE}
@@ -9,177 +9,99 @@ swjpg <- system.file('examples', 'sw.jpg', package = 'rmdshower')
 scifi <- system.file('examples', 'scifi.jpg', package = 'rmdshower')
 ```
 
-## Presentación en Rmarkdown con Shower { .white }
+## Organizaciones en Github { .white }
 
 <img src="`r scifi`" class="cover">
 
 <p class="white">
-Get it from GitHub: https://github.com/mangothecat/rmdshower.
+Traducido del texto original de GitHub: https://github.com/blog/674-introducing-organizations.
 </p>
 
-## R Markdown
+## Motivación
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax
-for authoring HTML, PDF, and MS Word documents. For more details on using R
-Markdown see <http://rmarkdown.rstudio.com>.
++ Simplifican el manejo de repositorios de propiedad grupal
++ Amplían el sistema de permisos
++ Ayudan a enfocar el flujo de trabajo de Github para negocios y proyectos de código abierto
 
-When you click the **Knit** button a document will be generated that
-includes both content as well as the output of any embedded R code chunks
-within the document.
+## Benéfico si:
 
-## Shower
++ Se manejan varias cuentas de Github
++ Se gestiona un espacio de trabajo común para una organización
++ Se busca agregar colaboradores de solo lectura
++ Se necesita para darle a otra persona control administrativo sobre uno de sus repositorios
 
-These slides use a template from the [shower](https://github.com/shower/shower)
-presentation system. Notable features:
+Al igual que el resto de GitHub, las organizaciones son gratuitas para código abierto.
 
-1. Works in all modern browsers
-1. Presentation fully keyboard accessible
-1. Multiple themes available
-1. Printable to PDF
+## Un hogar para el código de su organización
 
-<p class="note"> Shower ['ʃəuə] noun. A person or thing that shows.</p>
+Crear una organización ayuda a centralizar el código de su organización. Todos los repositorios viven bajo la organización y el pago se centraliza a una cuenta de la organización.
 
-## Slide with Plain Text
+Cualquier propietario de una organización puede editar la configuración de esa organización, desde los detalles del perfil hasta la información de facturación.
 
-Let me see your identification. You don't need to see his
-identification. We don't need to see his identification. These are not the
-droids your looking for. These are not the droids we're looking for. He can
-go about his business. You can go about your business.
+## Configuraciòn de la organización
 
-Move along. Move along. Move along.
-
-## Two column layout
+![](https://cloud.githubusercontent.com/assets/391331/6141952/4c251a5c-b162-11e4-9ea8-1a21153e0521.png){width="75%"}
 
 
-<p class="double">
-What is it? Your fathers lightsaber. This is the weapon of a Jedi
-Knight. Not as clumsy or as random as a blaster. An elegant weapon for a
-more civilized time. For over a thousand generations the Jedi Knights were
-the guardians of peace and justice in the Old Republic. Before the dark
-times, before the Empire. How did my father die? A young Jedi named Darth
-Vader, who was a pupil of mine until he turned to evil, helped the Empire
-hunt down and destroy the Jedi Knights.
-</p>
+## La próxima generación en control de permisos
 
-## Two column layout, text and image
+Los equipos le brindan a las personas acceso al código de la organización, lo que facilita agregar o eliminar personas a muchos repositorios a la vez.
 
-<p class="double">
-How did I get into this mess? I really don't know how. We seem to be made
-to suffer. It's our lot in life. I've got to rest before I fall apart. My
-joints are almost frozen. What a desolate place this is. Where are you
-going?
-<img src="`r swjpg`" class="one-col-image">
-</p>
+![](https://cloud.githubusercontent.com/assets/391331/6141967/baf90ce0-b162-11e4-8b87-9f44a50ab489.png){width="55%"}
 
-## Two column layout, image and text
+## Niveles de permisos
 
-<p class="double">
-<img src="`r swjpg`" class="one-col-image">
-How did I get into this mess? I really don't know how. We seem to be made
-to suffer. It's our lot in life. I've got to rest before I fall apart. My
-joints are almost frozen. What a desolate place this is. Where are you
-going?
-</p>
 
-## Two column layout, independent columns
+![](https://cloud.githubusercontent.com/assets/391331/6141982/f358b928-b162-11e4-996a-ef293fa67c69.png){width="75%"}
 
-<div class="double">
-<p class="double-flow">
-How did I get into this mess? I really don't know how. We seem to be made
-to suffer.
-</p><p class="double-flow">
-It's our lot in life. I've got to rest before I fall apart.
-</p>
-</div>
+## Niveles de permiso
 
-## Lists
+**Pull Only** es útil cuando desea dar acceso a las personas para ver el código, participar en problemas/wikis privados o trabajar en su fork privado. Los miembros no pueden subir repositorios propios a la organización. **Pull+Push** Está predeterminado para los colaboradores que tienen GitHub ahora mismo. Los miembros pueden participar en el proyecto e insertar código, pero no pueden cambiar los metadatos del repositorio (nombre, estado privado/público, etc.). **Pull + Push + Administrative** Permite otorgar permisos participativos, de inserción y administrativos. Los miembros pueden hacer cualquier cosa que un repositorio pueda hacer.
 
-1. Simple lists are marked with bullets
-1. Ordered lists begin with a number
-1. You can even nest lists one inside another
-    * Or mix their types
-    * But do not go too far
-    * Otherwise audience will be bored
-1. Look, seven rows exactly!
 
-## Formulas
+## Niveles de permiso
 
-Formulas are rendered by KaTeX, https://github.com/Khan/KaTeX
+Tanto los usuarios como los repositorios pueden ser agregados a los equipos por los propietarios, y usted puede hacer tantos equipos como desee.
 
-It supports both inline: \(y = x / 2\) and displayed formulas:
+![](https://cloud.githubusercontent.com/assets/391331/6141982/f358b928-b162-11e4-996a-ef293fa67c69.png){width="55%"}
 
-\[ x_{1,2} = \frac{- b \pm \sqrt{b^2 - 4ac}}{2a} \]
+##  Enfoque en la organización
 
-## Slide with quote
+Cada organización a la que pertenece tiene su propio dashboard. En este contexto, verá eventos pertinentes para la organización, así como los repositorios que pertenecen a la organización (a los que tiene acceso).
 
-> The bad news is that when ever you learn a new skill you're going to
-> suck. It's going to be frustrating. The good news is that is typical and
-> happens to everyone and it is only temporary. You can't go from knowing
-> nothing to becoming an expert without going through a period of great
-> frustration and great suckiness.
+Una vez que haya seleccionado un contexto, al hacer clic en el logo de GitHub o en cualquier enlace del "dashboard" volverá al contexto. Seleccione su nombre del menú desplegable para volver a su panel de control personal.
 
-**Hadley Wickham? **
+## Forking amigable
 
-## Slide with R Code and Output
+Si puede crear repositorios nuevos en nombre de la organización (es decir, usted es propietario de la organización o en un equipo con permisos de nivel de administrador), al hacer clic en "Fork" en cualquier repositorio, se le preguntará dónde ubicarlo. 
 
-```{r}
-summary(cars)
-```
+Del mismo modo, si un miembro de su organización utiliza uno de los repositorios de su organización, ese fork se considerará parte del repositorio y se puede agregar a los equipos. Esto no es diferente de la manera en que los repositorios privados funcionan con cuentas personales, simplemente mucho más flexible y poderoso.
 
-## Tables
+## Forking amigable
 
-|                   |  mpg  |  cyl  |  disp  |  hp  |
-|:-----------------:|:-----:|:-----:|:------:|:----:|
-|     Mazda RX4     | 21    |   6   |  160   | 110  |
-|   Mazda RX4 Wag   | 21    |   6   |  160   | 110  |
-|    Datsun 710     | 22.8  |   4   |  108   |  93  |
-|   Hornet 4 Drive  | 21.4  |   6   |  258   | 110  |
-| Hornet Sportabout | 18.7  |   8   |  360.0 | 175  |
-|       Valiant     | 18.1  |   6   |  225.0 | 105  |
-|      Duster 360   | 14.3  |   8   |  360.0 | 245  |
+![](https://cloud.githubusercontent.com/assets/391331/6142028/a9de0054-b163-11e4-8adb-5edc9600ff97.png){width="55%"}
 
-## Pictures { .white }
+## Transformar una cuenta de usuario existente en una organización
 
-<img src="`r scifi`" class="cover">
+Inicie sesión y haga clic en `Manage Organizations` en el menú desplegable Switch Context de su dashboard. Aquí puede convertir su cuenta de usuario compartido en una organización. Simplemente haga clic en el botón y siga las instrucciones.
 
-<p class="white">
-And text on top of them.
-</p>
+## Transformación
 
-# Title slide
+![](https://cloud.githubusercontent.com/assets/391331/6142016/67176616-b163-11e4-9c17-b6a25bb800e0.png){width="75%"}
 
-## Lists item by item
+## [Precio](https://github.com/plans)
 
-> 1. Lets you reveal list items one by one
-> 2. To keep some key points
-> 3. In secret from audience
-> 4. But it will work only once
-> 5. Nobody wants to see the same joke twice
+Las **cuentas personales** pueden continuar eligiendo entre los planes Gratis, Micro, Pequeño y Medio. Los planes Grande, Mega y Giga ya no estarán disponibles. Sin embargo, si desea aprovechar las nuevas funciones de la organización, deberá actualizar a un plan de organización.
 
-## Slide with Plot
+Las **organizaciones** pueden elegir entre los planes Gratis, Bronce, Plata, Oro y Platino. Las organizaciones no tienen límites de equipo, límites de miembros o colaboradores: lo único que importa es la cantidad de repositorios privados. Los repositorios públicos, como siempre, son gratuitos.
 
-```{r, echo=FALSE, dev='jpeg'}
-par(mar = c(5, 4, 1, 2) + 0.1)
-pairs(iris[1:4], pch = 21,
-      bg = c("red", "green3", "blue")[unclass(iris$Species)])
-```
+# [¡Cree una organización ahora!](https://github.com/organizations/new)
 
-# Full Page Plots
 
-## { .fullpage }
+## Más información
 
-<div class="fullpage width">
-```{r, echo=FALSE, dev='jpeg'}
-par(mar = c(5, 4, 1, 2) + 0.1)
-pairs(iris[1:4], pch = 21,
-      bg = c("red", "green3", "blue")[unclass(iris$Species)])
-```
-</div>
+### Sobre organizaciomnes: https://github.com/blog/674-introducing-organizations
 
-## More information
+### Sobre esta presentación: https://github.com/shower/shower
 
-### About R markdown: http://rmarkdown.rstudio.com
 
-### About shower: https://github.com/shower/shower
-
-### Example shower presentation: http://shwr.me/
